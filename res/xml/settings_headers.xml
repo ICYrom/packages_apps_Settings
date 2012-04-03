@@ -146,6 +146,14 @@
 
     <!-- SYSTEM -->
     <header android:title="@string/header_category_system" />
+    
+    <!-- Extra Settings -->
+        <header android:icon="@drawable/ic_settings_rom_control"
+            android:title="@string/rom_control_title">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.aokp.romcontrol.ROMControlActivity"
+                android:targetPackage="com.aokp.romcontrol" />
 
     <!-- Gummy Settings -->
     <header
